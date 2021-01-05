@@ -91,21 +91,21 @@ const ColorComponent:React.FC<myc>= () => {
             />
           </button>
           <Slider
-            color="FF00CC"
+            color={color.c}
             hexColor="red"
             handleUpdateColor={handleUpdateColor}
             
             
           />
           <Slider
-            color="00FFCC"
+            color={color.c}
             hexColor="green"
             handleUpdateColor={handleUpdateColor}
             
             
           />
           <Slider
-            color="0000FF"
+            color={color.c}
             hexColor="blue"
             handleUpdateColor={handleUpdateColor}
            
